@@ -1,0 +1,35 @@
+{
+  "bin": {
+    "slt": "./client.js"
+  },
+  "name": "socketio-localtunnel",
+  "version": "1.0.8",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts --fix",
+    "dev": "tsnd --respawn client",
+    "build": "tsc"
+  },
+  "keywords": ["socket.io","localtunnel","develop","tool","simple","typescript"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "cross-fetch": "^3.1.4",
+    "socket.io-client": "4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@typescript-eslint/eslint-plugin": "4.33.0",
+    "@typescript-eslint/parser": "4.33.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-prettier": "3.3.1",
+    "prettier": "2.2.1",
+    "ts-node-dev": "1.1.8",
+    "typescript": "4.4.3"
+  }
+}
