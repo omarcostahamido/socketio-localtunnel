@@ -11,7 +11,14 @@
     "dev": "tsnd --respawn client",
     "build": "tsc"
   },
-  "keywords": ["socket.io","localtunnel","develop","tool","simple","typescript"],
+  "keywords": [
+    "socket.io",
+    "localtunnel",
+    "develop",
+    "tool",
+    "simple",
+    "typescript"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
