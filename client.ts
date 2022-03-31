@@ -17,7 +17,7 @@ if (options.debug) {
   console.log('arguments:');
   console.log({ host, url, id });
 }
-console.log(`your url is: ${host}/api/${id}`);
+console.log(`your url is: ${host}/${id}`);
 const socket = io(host, { query: { id } });
 
 socket.on('api', async ({ method, body, headers, path }) => {
